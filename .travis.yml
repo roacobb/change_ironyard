@@ -2,6 +2,7 @@ language: ruby
 rvm:
   - "2.2.2"
 
-script: ruby bring_the_change.rb
+script: ruby bring_the_change.rb 
+script: ruby coin.rb
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
