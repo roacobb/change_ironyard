@@ -1,8 +1,7 @@
 # Write a Register class with a change function that takes an amount of money and returns the number of quarters, dimes, nickels and pennies needed to produce that amount:
 # r = Register.new r.change 0.99 # => [3, 2, 0, 4]
 # 
-require 'Minitest/autorun'
-require 'pry'
+require 'minitest/autorun'
 require './coin'
 
 class Register
